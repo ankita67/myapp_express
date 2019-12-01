@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY . .
 
-EXPOSE 9898
+EXPOSE 9890
 
 CMD node server.js
 
