@@ -4,8 +4,8 @@ var mysql = require("mysql");
 function connect()
 {
     var connection =  mysql.createConnection({
-     host: '172.17.0.1',
-    // host:'192.168.42.225',
+     //host: '172.17.0.1',
+     host:'192.168.42.225',
         database:'dock',
         user : 'root',
         password:'ankita',
